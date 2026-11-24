@@ -1,0 +1,83 @@
+{
+ "name": "ANDINITO · Viento Andino",
+ "short_name": "ANDINITO",
+ "description": "Asistente de Viento Andino: ventas, deudas, stock y clientes.",
+ "id": "./",
+ "start_url": "./",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "portrait",
+ "background_color": "#FFFFFF",
+ "theme_color": "#C8102E",
+ "lang": "es-AR",
+ "icons": [
+  {
+   "src": "https://itrygljklylfoxtyipey.supabase.co/functions/v1/andinito?icono=192",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "https://itrygljklylfoxtyipey.supabase.co/functions/v1/andinito?icono=512",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "https://itrygljklylfoxtyipey.supabase.co/functions/v1/andinito?icono=maskable",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ],
+ "shortcuts": [
+  {
+   "name": "Ventas del mes",
+   "short_name": "Ventas",
+   "url": "./?q=%C2%BFCu%C3%A1nto%20vendimos%20este%20mes%20vs.%20el%20mes%20pasado%3F",
+   "icons": [
+    {
+     "src": "https://itrygljklylfoxtyipey.supabase.co/functions/v1/andinito?icono=192",
+     "sizes": "192x192",
+     "type": "image/png"
+    }
+   ]
+  },
+  {
+   "name": "Ranking de vendedores",
+   "short_name": "Ranking",
+   "url": "./?q=Ranking%20de%20vendedores%20de%20este%20mes",
+   "icons": [
+    {
+     "src": "https://itrygljklylfoxtyipey.supabase.co/functions/v1/andinito?icono=192",
+     "sizes": "192x192",
+     "type": "image/png"
+    }
+   ]
+  },
+  {
+   "name": "Top clientes del mes",
+   "short_name": "Clientes",
+   "url": "./?q=Top%2010%20clientes%20de%20este%20mes",
+   "icons": [
+    {
+     "src": "https://itrygljklylfoxtyipey.supabase.co/functions/v1/andinito?icono=192",
+     "sizes": "192x192",
+     "type": "image/png"
+    }
+   ]
+  },
+  {
+   "name": "Consultar stock",
+   "short_name": "Stock",
+   "url": "./?escribir=Stock%20de",
+   "icons": [
+    {
+     "src": "https://itrygljklylfoxtyipey.supabase.co/functions/v1/andinito?icono=192",
+     "sizes": "192x192",
+     "type": "image/png"
+    }
+   ]
+  }
+ ]
+}
