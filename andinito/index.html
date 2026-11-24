@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html lang="es-AR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>ANDINITO · Viento Andino</title></head>
+<body style="font-family:system-ui;color:#5B6270;text-align:center;padding-top:40vh">Cargando ANDINITO…
+<script>
+fetch("https://itrygljklylfoxtyipey.supabase.co/functions/v1/andinito",{cache:"no-store"})
+  .then(r=>r.text()).then(h=>{document.open();document.write(h);document.close()})
+  .catch(()=>{document.body.textContent="No pude cargar ANDINITO. Revisá tu conexión y recargá."});
+</script></body></html>
